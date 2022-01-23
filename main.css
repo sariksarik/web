@@ -1,0 +1,46 @@
+@media (max-width:900px) {
+    footer img{
+        width: 80%;
+    }
+    
+}
+@media (max-width:800px) {
+    footer img{
+        width: 80%;
+    }
+    .mans-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tax{
+        display: flex;
+        flex-direction: column;
+    }
+    .tax img{
+        width: 80%;
+    }
+    .product-content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .product-content img{
+        width: 80%;
+    }
+    .tax-content{
+        margin-bottom: 20px;
+
+    }
+}
+@media (max-width:600px) {
+    .header-content img{
+        display: none;
+    }
+    .header-content{
+        background: rgb(20,43,80);
+    }
+    .mans-box img{
+        width: 50%;
+    }
+}
